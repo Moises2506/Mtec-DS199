@@ -4,7 +4,7 @@ public class matriz_Nota {
 	public static void main(String args[]) {
 		Scanner in = new Scanner (System.in);
 		int a[][] = new int[3][4];
-		int i, j, l=1;
+		int i, j, i=1;
 		a[0][0] = 2; 
 		for(i=0;i<3;i++) {
 			for(j=0;j<4;j++) {
