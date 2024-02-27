@@ -4,15 +4,15 @@ public class if1 {
 	public static void main(String args[]) {
 		Scanner ler = new Scanner(System.in);
 		int x;
-		System.out.println("Entre com um número inteiro:");
+		System.out.println("Entre com um nÃºmero inteiro:");
  		x= ler.nextInt();
- 		System.out.println("O número inteiro "+x);
+ 		System.out.println("O nÃºmero inteiro "+x);
  		if (x>0) {
-			System.out.println("É positivo.");
+			System.out.println("Ã‰ positivo.");
 		}else if (x==0) {
-			System.out.println("É neutro.");
+			System.out.println("Ã‰ neutro.");
 		}else {
-			System.out.println("É negativo.");
+			System.out.println("Ã‰ negativo.");
 		}
 		ler.close();
 	}
