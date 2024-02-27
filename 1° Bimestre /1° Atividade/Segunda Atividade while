@@ -10,7 +10,7 @@ public class while_Senha {
 			System.out.println("Entre com a senha:");
 	 		v= ler.nextInt();
 	 		if (v != s) {
-	 			System.out.println("Senha inválida.");
+	 			System.out.println("Senha invÃ¡lida.");
 				System.out.println("Tente novamente.");
 	 		} else {
 	 			System.out.println("Acesso permitido.");
