@@ -15,14 +15,14 @@ public class while_Idade {
 			
 			idade = anoAtual - anoNasci;
 			
-			System.out.println("A sua idade é "+ idade +" anos.");
+			System.out.println("A sua idade Ã© "+ idade +" anos.");
 			
 			if (idade>=18) {
-				System.out.println("Você é maior de idade.");
+				System.out.println("VocÃª Ã© maior de idade.");
 			} else{
-				System.out.println("Você é menor de idade.");
+				System.out.println("VocÃª Ã© menor de idade.");
 			}
-			System.out.println("Deseja calcular a idade de mais uma pessoa? Responda com sim ou não.");
+			System.out.println("Deseja calcular a idade de mais uma pessoa? Responda com sim ou nÃ£o.");
 			resposta = ler.next();
 			
 		}while(resposta.equals("sim"));
