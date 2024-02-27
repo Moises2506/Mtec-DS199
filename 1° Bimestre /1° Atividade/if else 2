@@ -4,14 +4,14 @@ public class if2 {
 	public static void main(String args[]) {
 		Scanner ler = new Scanner(System.in);
 		int x, im_Par;
-		System.out.println("Entre com um número inteiro:");
+		System.out.println("Entre com um nÃºmero inteiro:");
  		x= ler.nextInt();
 		im_Par= x%2;
-		System.out.println("O número inteiro "+x);
+		System.out.println("O nÃºmero inteiro "+x);
 		if (im_Par==0) {
-			System.out.println("É par.");
+			System.out.println("Ã‰ par.");
 		}else {
-			System.out.println("É impar.");
+			System.out.println("Ã‰ impar.");
 		}
 		ler.close();
 
