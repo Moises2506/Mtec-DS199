@@ -27,7 +27,7 @@ double getPrecoCusto() {
 	
 void setPrecoCusto (double PrecoCusto) {
 	Scanner in = new Scanner(System.in);
-	System.out.println("Qual o preço de custo?");
+	System.out.println("Qual o preÃ§o de custo?");
 	precoCusto = in.nextDouble();
 
 	this.precoCusto = precoCusto;
@@ -42,13 +42,13 @@ double getPrecoVenda() {
 	
 void setPrecoVenda (Double precoVenda) {
 	Scanner in = new Scanner(System.in);
-	System.out.println("Qual o preço de venda?");
+	System.out.println("Qual o preÃ§o de venda?");
 	precoVenda = in.nextDouble();
 	
 		
 if (precoVenda < precoCusto) {
-	System.out.println("ATENÇÃO!!!");
-	System.out.println("O PREÇO DE VENDA NÃO PODE SER INFERIOR AO PREÇO DE CUSTO.");
+	System.out.println("ATENÃ‡ÃƒO!!!");
+	System.out.println("O PREÃ‡O DE VENDA NÃƒO PODE SER INFERIOR AO PREÃ‡O DE CUSTO.");
 			
 }
 
@@ -70,7 +70,7 @@ void calcularMargemLucro(double precoVenda, double precoCusto) {
 }
 
 double getPorcentagemMargemLucro() {
-	return margemLucro = (margemLucro/precoVenda)*100;
+	return margemLucro = (margemLucro/precoCusto)*100;
 }
 
 
