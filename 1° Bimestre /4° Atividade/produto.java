@@ -1,10 +1,10 @@
 package encapsulamento;
 import java.util.Scanner;
 public class produto {
-	String nome;
-	double precoCusto;
-	double precoVenda;
-	double margemLucro;
+	private String nome;
+	private double precoCusto;
+	private double precoVenda;
+	private double margemLucro;
 	
 //----------------------------------------------------------------------------------	
 	
